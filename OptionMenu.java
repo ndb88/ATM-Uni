@@ -132,7 +132,7 @@ public class OptionMenu extends Account {
       break;
 
       case 4:
-      System.out.println("Thank You for using this ATM, bye.");
+      System.out.println("Have a good day, goodbye.");
       break;
 
       default:
