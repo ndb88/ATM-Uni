@@ -95,7 +95,7 @@ public class OptionMenu extends Account {
       break;
 
       case 4:
-      System.out.println("Thank You for using this ATM, bye.");
+      System.out.println("Have a good day, goodbye.");
       break;
 
       default:
@@ -106,7 +106,7 @@ public class OptionMenu extends Account {
 
 
   public void getSaving(){
-    System.out.println("Saving Account: ");
+    System.out.println("Savings Account: ");
     System.out.println(" Type 1 - View Balance");
     System.out.println(" Type 2 - Withdraw Funds");
     System.out.println(" Type 3 - Deposit Funds");
