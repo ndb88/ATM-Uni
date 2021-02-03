@@ -27,11 +27,6 @@ public class OptionMenu extends Account {
            System.out.println("\n"+ "Invalid Character(s). Only Numbers."+"\n");
            x=2;
          }
-         /*for(Map.Entry<Integer,Integer> it : data.entrySet()){
-           if(it.getkey()==getCustomerNumber() && it.getValue()==getPinNumber){
-             getAccountType();
-           }
-         }*/
          int cn=getCustomerNumber();
          int pn=getPinNumber();
          if(data.containsKey(cn) && data.get(cn)==pn){
